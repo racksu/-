@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        #rectangle {
+            position: absolute;
+            width: 1560px;
+            height: 176px;
+            left: 0px;
+            top: 0px;
+
+            background: #007C7D;
+        }
+
+        #criteria {
+            position: absolute;
+            width: 185px;
+            height: 63px;
+            left: 91px;
+            top: 240px;
+
+            background: #43B7BE;
+            border-radius: 15px;
+
+            font-family: "Microsoft JhengHei";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 36px;
+            line-height: 63px;
+            align-items: center;
+            text-align: center;
+            color: #FFFFFF;
+
+        }
+
+        #text {
+            position: absolute;
+            width: 1100px;
+            height: 63px;
+            left: 306px;
+            top: 240px;
+
+            font-family: "Microsoft JhengHei";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 28px;
+            line-height: 33px;
+            display: flex;
+            align-items: center;
+
+            color: #000000;
+        }
+
+        #rec_info {
+            width: 565px;
+            height: 217px;
+
+
+            box-sizing: border-box;
+            border-radius: 20px;
+        }
+
+        #Logo {
+            position: absolute;
+            width: 468px;
+            height: 136px;
+            left: 38px;
+            top: 10px;
+
+        }
+
+        #logo_text {
+            position: absolute;
+            width: 410px;
+            height: 90px;
+            left: 500px;
+            top: 66px;
+
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 36px;
+            line-height: 42px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            letter-spacing: 0.05em;
+
+            color: #FFFFFF;
+        }
+
+        #EN {
+            position: absolute;
+            width: 62px;
+            height: 49px;
+            left: 1300px;
+            top: 111px;
+
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 40px;
+            line-height: 47px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            letter-spacing: 0.05em;
+            font-family: "Microsoft JhengHei";
+            color: #FFFFFF;
+
+        }
+
+        #logout {
+            position: absolute;
+            width: 113px;
+            height: 39px;
+            left: 1400px;
+            top: 116px;
+
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 39px;
+            line-height: 46px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            letter-spacing: 0.05em;
+
+            color: #FFF6F6;
+        }
+
+        table {
+            position: absolute;
+            width: 1300px;
+            height: 800px;
+            left: 91px;
+            top: 311.48px;
+
+        }
+
+        button {
+            position: absolute;
+            width: 165px;
+            height: 47px;
+            left: 1308px;
+            top: 203px;
+
+
+            background: #a9d18e85;
+            border-radius: 12px;
+            border: none;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 36px;
+            line-height: 42px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="rectangle"></div>
+    <img id="Logo" src="台壽.png"></div>
+    <label class=top id=logo_text>業務員搜尋平台</label>
+    <label class=top id=EN>EN</label>
+    <label class=top id=logout onclick="javascript:location.href='login.html'">登出</label>
+    <button type="button" onclick="javascript:location.href='salesman_search.html'">返回搜尋</button>
+    <div id="criteria">搜尋結果</div>
+    <label id="text">性別:0 / 地區:00地區:00 / 服務客群:00 / 客群年收:00 / 保單數量:00 / 聯絡時間: 00</label>
+
+
+    <table>
+        <tr>
+            <td>
+                <img id="rec_info" src="sales3.png" onclick="javascript:location.href='detail.html'">
+            </td>
+            <td>
+                <img id="rec_info" src="sales3.png" onclick="javascript:location.href='detail.html'">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img id="rec_info" src="sales2.5.png" onclick="javascript:location.href='detail.html'">
+            </td>
+            <td>
+                <img id="rec_info" src="sales1.5.png" onclick="javascript:location.href='detail.html'">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img id="rec_info" src="sales1.5.png" onclick="javascript:location.href='detail.html'">
+            </td>
+            <td>
+                <img id="rec_info" src="sales1.png" onclick="javascript:location.href='detail.html'">
+            </td>
+        </tr>
+
+    </table>
+
+</body>
+
+
+</html>

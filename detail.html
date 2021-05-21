@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        #rectangle {
+            position: absolute;
+            width: 1560px;
+            height: 176px;
+            left: 0px;
+            top: 0px;
+
+            background: #007C7D;
+        }
+
+        #Logo {
+            position: absolute;
+            width: 468px;
+            height: 136px;
+            left: 38px;
+            top: 10px;
+
+        }
+
+        #separator {
+            position: absolute;
+            width: 678.5px;
+            height: 5px;
+            left: 200.5px;
+            top: 630px;
+            background: #5f6868;
+            border: 1px solid #5f6868;
+            transform: rotate(90deg);
+        }
+
+        #logo_text {
+            position: absolute;
+            width: 410px;
+            height: 90px;
+            left: 500px;
+            top: 66px;
+
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 36px;
+            line-height: 42px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            letter-spacing: 0.05em;
+
+            color: #FFFFFF;
+        }
+
+        #EN {
+            position: absolute;
+            width: 62px;
+            height: 49px;
+            left: 1300px;
+            top: 111px;
+
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 40px;
+            line-height: 47px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            letter-spacing: 0.05em;
+            font-family: "Microsoft JhengHei";
+            color: #FFFFFF;
+
+        }
+
+        #logout {
+            position: absolute;
+            width: 113px;
+            height: 39px;
+            left: 1400px;
+            top: 116px;
+
+            font-family: "Microsoft JhengHei";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 39px;
+            line-height: 46px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            letter-spacing: 0.05em;
+
+            color: #FFF6F6;
+        }
+
+        #table1 {
+            position: absolute;
+            width: 1300px;
+            height: 550px;
+            left: 140px;
+            top: 150px;
+
+
+            font-family: "Microsoft JhengHei";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 40px;
+            line-height: 60px;
+
+        }
+
+        #table2 {
+            position: absolute;
+            width: 300px;
+            height: 276px;
+            left: 60px;
+            top: 630px;
+            font-family: "Microsoft JhengHei";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 40px;
+            line-height: 60px;
+        }
+
+        #image {
+            width: 305px;
+            height: 305px;
+        }
+
+        #stars {
+            position: absolute;
+            left: 110px;
+            top: 188px;
+            width: 180px;
+            height: 47px;
+        }
+
+        #icon {
+            width: 53px;
+            height: 52px;
+        }
+
+        #chart {
+            position: absolute;
+            width: 601px;
+            height: 441px;
+            left: 800px;
+            top: 590px;
+
+        }
+
+        button {
+            position: absolute;
+            width: 165px;
+            height: 47px;
+            left: 1308px;
+            top: 203px;
+
+
+            background: #a9d18e85;
+            border-radius: 12px;
+            border: none;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 36px;
+            line-height: 42px;
+            text-align: center;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="rectangle"></div>
+    <img id="Logo" src="台壽.png"></div>
+    <label class=top id=logo_text>業務員搜尋平台</label>
+    <label class=top id=EN>EN</label>
+    <label class=top id=logout onclick="javascript:location.href='login.html'">登出</label>
+    <div id="separator"></div>
+    <table id="table1">
+        <tr>
+            <td>
+                <img id="image" src="大頭貼.png"></div>
+            </td>
+            <td>
+                <label>地區：</label><br>
+                <label>服務客群年齡：</label><br>
+                <label>服務客群年收：</label><br>
+                <label>證照:</label>
+            </td>
+            <td>
+                <label>聯絡時間：</label><br>
+                <label>保單累積：</label><br>
+                <label>KPI：</label><br>
+                <label>保單領域：</label>
+            </td>
+        </tr>
+
+    </table>
+    <table id="table2">
+        <tr>
+            <td>
+                <label>姓名:</label><br>
+                <label>性別:</label><br>
+                <label>年資:</label><br>
+                <label>評價:</label>
+                <img id="stars" src="stars.png">
+
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+                <br>
+                <label>&nbsp</label>
+                <a
+                    href="  https://www.taiwanlife.com/html/LINE/Action01/index.html?utm_source=LINE&utm_medium=MGM&utm_campaign=WEBL"><img
+                        id="icon" src="line.png"></a>
+                <label>&nbsp &nbsp</label>
+                <a href="https://www.taiwanlife.com/ContactUs"> <img id="icon" src="mail.png"></div></a>
+                <label>&nbsp &nbsp</label>
+                <a href="https://www.facebook.com/IlikeTWlife/"><img id="icon" src="facebook.png"></a>
+
+
+            </td>
+
+        </tr>
+    </table>
+    <img id="chart" src="radio_chart.png"></div>
+    <button type="button" onclick="javascript:location.href='result.html'">返回搜尋</button>
+
+
+</body>
+
+</html>
